@@ -1,0 +1,22 @@
+{
+  "zabbix_export": {
+    "version": "8.0",
+    "templates": [
+      {
+        "uuid": "cccccccccccccccccccccccccccccccc",
+        "template": "E2E Import Sample",
+        "name": "E2E Import Sample",
+        "items": [
+          {
+            "name": "Agent ping",
+            "key": "agent.ping",
+            "type": "ZABBIX_ACTIVE",
+            "delay": "1m"
+          }
+        ],
+        "macros": [],
+        "triggers": []
+      }
+    ]
+  }
+}

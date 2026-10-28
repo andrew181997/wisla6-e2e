@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env.local
+.env
+*.local.env
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# Pytest / Playwright artifacts
+.pytest_cache/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.auth/
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
